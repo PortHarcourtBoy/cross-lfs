@@ -27,6 +27,22 @@
     xpointer="xpointer(//*[@os='da'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../mips/eglibc.xml"
+    xpointer="xpointer(//*[@os='g1'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../mips/eglibc.xml"
+    xpointer="xpointer(//*[@os='g2'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../common/eglibc.xml"
+    xpointer="xpointer(//*[@os='db'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../common/eglibc.xml"
+    xpointer="xpointer(//*[@os='dc'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../../final-system/mips64/eglibc-64bit.xml"
     xpointer="xpointer(//*[@os='m3'])"/>
 
@@ -91,12 +107,12 @@
     xpointer="xpointer(//*[@os='dn'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../x86_64-64/eglibc.xml"
-    xpointer="xpointer(//*[@os='do'])"/>
+    href="../../final-system/common/eglibc.xml"
+    xpointer="xpointer(//*[@os='ra'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../x86_64-64/eglibc.xml"
-    xpointer="xpointer(//*[@os='dp'])"/>
+    href="../common/eglibc.xml"
+    xpointer="xpointer(//*[@os='rb'])"/>
 
   </sect2>
 

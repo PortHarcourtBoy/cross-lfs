@@ -39,13 +39,6 @@
     </listitem>
 
     <listitem>
-      <para>Bc</para>
-      <para>This package contains a precision calculator. The Linux kernel
-      uses Bc to render the timeconst header.</para>
-    </listitem>
-
-
-    <listitem>
       <para>Binutils</para>
       <para>This package contains programs for handling object files. The
       programs in this package are needed for compiling most of the packages
@@ -72,12 +65,7 @@
     </listitem>
 
     <listitem>
-      <para>Check</para>
-      <para>This package contains a test harness for other programs.</para>
-    </listitem>
-
-    <listitem>
-      <para>CLooG-ISL</para>
+      <para>CLooG-PPL</para>
       <para>This package is used by GCC.</para>
     </listitem>
 
@@ -204,11 +192,6 @@
     </listitem>
 
     <listitem>
-      <para>ISL</para>
-      <para>This package is required by CLooG.</para>
-    </listitem>
-
-    <listitem>
       <para>Kbd</para>
       <para>Contains keytable files and keyboard utilities compatible with the
       Linux kernel.</para>
@@ -303,8 +286,13 @@
     </listitem>
 
     <listitem>
-      <para>Pkg-config-lite</para>
+      <para>Pkg-config</para>
       <para>Needed by E2fsprogs</para>
+    </listitem>
+
+    <listitem>
+      <para>PPL</para>
+      <para>This package i used by GCC.</para>
     </listitem>
 
     <listitem>
@@ -372,8 +360,8 @@
     </listitem>
 
     <listitem>
-      <para>Eudev</para>
-      <para>The Eudev package contains programs for dynamic creation of device
+      <para>Udev</para>
+      <para>The Udev package contains programs for dynamic creation of device
       nodes.</para>
     </listitem>
 

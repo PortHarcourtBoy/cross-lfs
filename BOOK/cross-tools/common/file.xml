@@ -5,7 +5,7 @@
   %general-entities;
 ]>
 
-<sect1 id="ch-cross-tools-file" role="wrap">
+<sect1 id="ch-cross-tools-file">
   <?dbhtml filename="file.html"?>
 
   <title>File-&file-version;</title>

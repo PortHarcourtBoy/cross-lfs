@@ -25,16 +25,11 @@
   <sect2 role="installation">
     <title>Installation of GCC</title>
 
+
     <para os="p1">The following patch contains a number of updates to the 
     &gcc-version; branch by the GCC developers:</para>
 
     <screen os="p2"><userinput>patch -Np1 -i ../&gcc-branch_update-patch;</userinput></screen>
-
-    <para os="fix1">Apply a <command>sed</command> subsitution that will
-    suppress the execution of the <command>fixincludes</command> script:</para>
-
-<screen os="fix2"><userinput>cp -v gcc/Makefile.in{,.orig}
-sed 's@\./fixinc\.sh@-c true@' gcc/Makefile.in.orig > gcc/Makefile.in</userinput></screen>
 
     <para os="d">Apply a <command>sed</command> substitution that will suppress the
     installation of <filename class="libraryfile">libiberty.a</filename>. The
@@ -59,9 +54,7 @@ LDFLAGS="-Wl,-rpath-link,/usr/lib:/lib" \
     --enable-__cxa_atexit --enable-c99 --enable-long-long \
     --enable-clocale=gnu --enable-languages=c,c++ \
     --disable-multilib --disable-libstdcxx-pch \
-    --enable-cloog-backend=isl --disable-isl-version-check --with-system-zlib \
-    --enable-checking=release --enable-libstdcxx-time \
-    --disable-install-libiberty</userinput></screen>
+    --enable-cloog-backend=isl</userinput></screen>
 
     <para os="j">Compile the package:</para>
 
@@ -71,10 +64,6 @@ LDFLAGS="-Wl,-rpath-link,/usr/lib:/lib" \
       <para>The test suite for GCC is considered
       critical. Do not skip it under any circumstance.</para>
     </important>
-
-   <para os="s1">Increase the stack size prior to running the tests:</para>
-
-<screen os="s2"><userinput remap="test">ulimit -s 32768</userinput></screen>
 
     <para os="m">Test the results, but do not stop at errors:</para>
 
@@ -108,10 +97,6 @@ LDFLAGS="-Wl,-rpath-link,/usr/lib:/lib" \
     compiler. To satisfy those packages, create a symlink:</para>
 
 <screen os="x"><userinput>ln -sv gcc /usr/bin/cc</userinput></screen>
-
-    <para os="y">Finally, move a misplaced file:</para>
-
-<screen os="z"><userinput>mv -v /usr/lib/*gdb.py /usr/share/gdb/auto-load/usr/lib</userinput></screen>
 
   </sect2>
 

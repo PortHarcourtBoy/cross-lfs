@@ -44,6 +44,22 @@
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../common/eglibc.xml"
+    xpointer="xpointer(//*[@os='p3'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../common/eglibc.xml"
+    xpointer="xpointer(//*[@os='p4'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../../final-system/ppc/eglibc.xml"
+    xpointer="xpointer(//*[@os='p5'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../../final-system/ppc/eglibc.xml"
+    xpointer="xpointer(//*[@os='p6'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../common/eglibc.xml"
     xpointer="xpointer(//*[@os='b'])"/>
 
     <para os="u1">The powerpc (32) architecture is expected to fail the
@@ -77,8 +93,7 @@
 <screen os="h"><userinput>CC="gcc ${BUILD32}" CXX="g++ ${BUILD32}" \
     ../eglibc-&eglibc-version;/configure --prefix=/usr \
     --disable-profile --enable-kernel=2.6.32 \
-    --libexecdir=/usr/lib/eglibc --host=${CLFS_TARGET32} \
-    --enable-obsolete-rpc</userinput></screen>
+    --libexecdir=/usr/lib/eglibc --host=${CLFS_TARGET32}</userinput></screen>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../common/eglibc.xml"

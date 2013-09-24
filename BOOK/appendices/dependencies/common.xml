@@ -115,34 +115,6 @@
         </seglistitem>
       </segmentedlist>
 
-<!-- Begin Bc dependency info -->
-  <bridgehead renderas="sect2" id="bc-dep">Bc</bridgehead>
-
-      <segmentedlist>
-        <segtitle>&dependencies;</segtitle>
-
-        <seglistitem>
-          <seg>Bash, Binutils, Bison, Coreutils, EGLIBC, GCC, Grep, Make,
-          and Readline</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&testsuites;</segtitle>
-
-        <seglistitem>
-          <seg>Gawk</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&before;</segtitle>
-
-        <seglistitem>
-          <seg>None</seg>
-        </seglistitem>
-      </segmentedlist>
-
 <!-- Begin Binutils dependency info -->
   <bridgehead renderas="sect2" id="binutils-dep">Binutils</bridgehead>
 
@@ -253,42 +225,15 @@
         </seglistitem>
       </segmentedlist>
 
-<!-- Begin Check dependency info -->
-  <bridgehead renderas="sect2" id="check-dep">Check</bridgehead>
-
-      <segmentedlist>
-        <segtitle>&dependencies;</segtitle>
-
-        <seglistitem>
-         <seg>GCC, Grep, Make, Sed and Texinfo</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&testsuites;</segtitle>
-
-        <seglistitem>
-          <seg>None</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&before;</segtitle>
-
-        <seglistitem>
-          <seg>None</seg>
-        </seglistitem>
-      </segmentedlist>
-
-<!-- Begin CLooG-ISL dependency info -->
-  <bridgehead renderas="sect2" id="cloog-isl-dep">CLooG-ISL</bridgehead>
+<!-- Begin CLooG-PPL dependency info -->
+  <bridgehead renderas="sect2" id="cloog-ppl-dep">CLooG-PPL</bridgehead>
 
       <segmentedlist>
         <segtitle>&dependencies;</segtitle>
 
         <seglistitem>
          <seg>Bash, Binutils, Coreutils, Diffutils, EGLIBC, Gawk, GCC, Grep, GMP,
-         Make, MPC, MPFR, Sed and Texinfo</seg>
+         Make, MPC, MPFR, PPL, Sed and Texinfo</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -332,7 +277,7 @@
         <segtitle>&before;</segtitle>
 
         <seglistitem>
-          <seg>Bash, Diffutils, Findutils, Man and Eudev</seg>
+          <seg>Bash, Diffutils, Findutils, Man and Udev</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -482,7 +427,7 @@
 
         <seglistitem>
          <seg>Bash, Binutils, Coreutils, EGLIBC, Gawk, GCC, Gettext, Grep, Gzip,
-         Make, Pkg-config-lite, Sed, Texinfo and Util-linux</seg>
+         Make, Pkg-config, Sed, Texinfo and Util-linux</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -620,9 +565,8 @@
         <segtitle>&dependencies;</segtitle>
 
         <seglistitem>
-         <seg>Bash, Binutils, CLooG-ISL, Coreutils, Diffutils, EGLIBC,
-         Findutils, Gawk, GCC, GMP, Grep, ISL, Make, MPFR, Patch, Perl, Sed,
-         Tar and Texinfo</seg>
+         <seg>Bash, Binutils, Coreutils, Diffutils, EGLIBC, Findutils, Gawk,
+         GCC, GMP, Grep, Make, MPFR, Patch, Perl, Sed, Tar and Texinfo</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -630,7 +574,7 @@
         <segtitle>&testsuites;</segtitle>
 
         <seglistitem>
-          <seg>Check, DejaGNU, and Expect</seg>
+          <seg>DejaGNU and Expect</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -693,7 +637,7 @@
         <segtitle>&before;</segtitle>
 
         <seglistitem>
-          <seg>Pkg-config-lite</seg>
+          <seg>Pkg-config</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -891,34 +835,6 @@
         </seglistitem>
       </segmentedlist>
 
-<!-- Begin ISL dependency info -->
-  <bridgehead renderas="sect2" id="isl-dep">ISL</bridgehead>
-
-      <segmentedlist>
-        <segtitle>&dependencies;</segtitle>
-
-        <seglistitem>
-         <seg>Bash, Binutils, Coreutils, Diffutils, EGLIBC, Gawk, GCC, Grep,
-         GMP, Make, MPC, MPFR, Sed and Texinfo</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&testsuites;</segtitle>
-
-        <seglistitem>
-          <seg>None</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&before;</segtitle>
-
-        <seglistitem>
-          <seg>GCC</seg>
-        </seglistitem>
-      </segmentedlist>
-
 <!-- Begin Kbd dependency info -->
   <bridgehead renderas="sect2" id="kbd-dep">Kbd</bridgehead>
 
@@ -926,8 +842,7 @@
         <segtitle>&dependencies;</segtitle>
 
         <seglistitem>
-         <seg>Bash, Binutils, Coreutils, EGLIBC, Gawk, GCC, Gzip, Make, and
-         Check</seg>
+         <seg>Bash, Binutils, Coreutils, EGLIBC, Gawk, GCC, Gzip, Make and Sed</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -944,35 +859,6 @@
 
         <seglistitem>
           <seg>None</seg>
-        </seglistitem>
-      </segmentedlist>
-
-<!-- Begin KMOD dependency info -->
-  <bridgehead renderas="sect2" id="kmod-dep">KMOD</bridgehead>
-
-      <segmentedlist>
-        <segtitle>&dependencies;</segtitle>
-
-        <seglistitem>
-         <seg>Bash, Binutils, Bison, Coreutils, EGLIBC, Flex, Gawk, GCC,
-         Gettext, Gzip, Make, Pkg-config-lite, Sed, XZ-Utils, and Zlib.
-         </seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&testsuites;</segtitle>
-
-        <seglistitem>
-          <seg>No testsuite available</seg>
-        </seglistitem>
-      </segmentedlist>
-
-      <segmentedlist>
-        <segtitle>&before;</segtitle>
-
-        <seglistitem>
-          <seg>Eudev</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -1012,7 +898,7 @@
 
         <seglistitem>
          <seg>Bash, Binutils, Coreutils, Diffutils, EGLIBC, Findutils, Gawk,
-         GCC, Grep, Libestr, Make, Pkg-config-lite, Sed and Texinfo</seg>
+         GCC, Grep, Libestr, Make, Pkg-config, Sed and Texinfo</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -1123,7 +1009,7 @@
 
         <seglistitem>
          <seg>Bash, Binutils, Coreutils, Diffutils, EGLIBC, Findutils, GCC, Grep,
-         Gzip, Make, KMOD, Ncurses, Perl and Sed</seg>
+         Gzip, Make, Module-Init-Tools, Ncurses, Perl and Sed</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -1310,8 +1196,8 @@
         </seglistitem>
       </segmentedlist>
 
-<!-- Begin KMOD dependency info -->
-  <bridgehead renderas="sect2" id="module-init-tools-dep">KMOD</bridgehead>
+<!-- Begin Module-Init-Tools dependency info -->
+  <bridgehead renderas="sect2" id="module-init-tools-dep">Module-Init-Tools</bridgehead>
 
       <segmentedlist>
         <segtitle>&dependencies;</segtitle>
@@ -1422,8 +1308,8 @@
         </seglistitem>
       </segmentedlist>
 
-<!-- Begin Pkg-config-lite dependency info -->
-  <bridgehead renderas="sect2" id="pkg-config-lite-dep">Pkg-config-lite</bridgehead>
+<!-- Begin Pkg-config dependency info -->
+  <bridgehead renderas="sect2" id="pkg-config-dep">Pkg-config</bridgehead>
 
       <segmentedlist>
         <segtitle>&dependencies;</segtitle>
@@ -1449,6 +1335,35 @@
           <seg>Util-linux, E2fsprogs</seg>
         </seglistitem>
       </segmentedlist>
+
+<!-- Begin PPL dependency info -->
+  <bridgehead renderas="sect2" id="ppl-dep">PPL</bridgehead>
+
+      <segmentedlist>
+        <segtitle>&dependencies;</segtitle>
+
+        <seglistitem>
+         <seg>Bash, Binutils, Coreutils, Diffutils, EGLIBC, Gawk, GCC, Grep, GMP,
+         Make, MPC, MPFR, Sed and Texinfo</seg>
+        </seglistitem>
+      </segmentedlist>
+
+      <segmentedlist>
+        <segtitle>&testsuites;</segtitle>
+
+        <seglistitem>
+          <seg>None</seg>
+        </seglistitem>
+      </segmentedlist>
+
+      <segmentedlist>
+        <segtitle>&before;</segtitle>
+
+        <seglistitem>
+          <seg>GCC</seg>
+        </seglistitem>
+      </segmentedlist>
+
 
 <!-- Begin Procps dependency info -->
   <bridgehead renderas="sect2" id="procps-dep">Procps</bridgehead>
@@ -1728,8 +1643,8 @@
         </seglistitem>
       </segmentedlist>
 
-<!-- Begin Eudev dependency info -->
-  <bridgehead renderas="sect2" id="udev-dep">Eudev</bridgehead>
+<!-- Begin Udev dependency info -->
+  <bridgehead renderas="sect2" id="udev-dep">Udev</bridgehead>
 
       <segmentedlist>
         <segtitle>&dependencies;</segtitle>
@@ -1764,7 +1679,7 @@
 
         <seglistitem>
          <seg>Bash, Binutils, Coreutils, EGLIBC, GCC, Grep,
-         Make, Ncurses, Pkg-config-lite, Sed, Texinfo and Zlib</seg>
+         Make, Ncurses, Pkg-config, Sed, Texinfo and Zlib</seg>
         </seglistitem>
       </segmentedlist>
 
@@ -1863,7 +1778,7 @@
         <segtitle>&before;</segtitle>
 
         <seglistitem>
-          <seg>File, KMOD and Util-linux</seg>
+          <seg>File, Module-Init-Tools and Util-linux</seg>
         </seglistitem>
       </segmentedlist>
 

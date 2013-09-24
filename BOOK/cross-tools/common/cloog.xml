@@ -22,11 +22,19 @@
   <sect2 role="installation">
     <title>Installation of CLooG</title>
 
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../../temp-system/common/cloog.xml"
+    xpointer="xpointer(//*[@os='s1'])"/>
+
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
+    href="../../temp-system/common/cloog.xml"
+    xpointer="xpointer(//*[@os='s2'])"/>
+
     <para os="a">Prepare CLooG for compilation:</para>
 
 <screen os="b"><userinput>LDFLAGS="-Wl,-rpath,/cross-tools/lib" \
     ./configure --prefix=/cross-tools --enable-shared --disable-static \
-    --with-gmp-prefix=/cross-tools --with-isl-prefix=/cross-tools</userinput></screen>
+    --with-gmp-prefix=/cross-tools</userinput></screen>
 
     <para os="c">Compile the package:</para>
 

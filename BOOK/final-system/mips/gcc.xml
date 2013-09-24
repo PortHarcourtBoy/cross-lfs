@@ -30,12 +30,12 @@
     xpointer="xpointer(//*[@os='p2'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../common/gcc.xml"
-    xpointer="xpointer(//*[@os='fix1'])"/>
-
+    href="../../cross-tools/mips/gcc-static.xml"
+    xpointer="xpointer(//*[@os='f1'])"/>
+    
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../common/gcc.xml"
-    xpointer="xpointer(//*[@os='fix2'])"/>
+    href="../../cross-tools/mips/gcc-static.xml"
+    xpointer="xpointer(//*[@os='f2'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../common/gcc.xml"
@@ -72,14 +72,6 @@
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../common/gcc.xml"
     xpointer="xpointer(//*[@os='l'])"/>
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../common/gcc.xml"
-    xpointer="xpointer(//*[@os='s1'])"/>
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../common/gcc.xml"
-    xpointer="xpointer(//*[@os='s2'])"/>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../common/gcc.xml"
@@ -128,14 +120,6 @@
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
     href="../common/gcc.xml"
     xpointer="xpointer(//*[@os='x'])"/>
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../common/gcc.xml"
-    xpointer="xpointer(//*[@os='y'])"/>
-
-    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude"
-    href="../common/gcc.xml"
-    xpointer="xpointer(//*[@os='z'])"/>
 
   </sect2>
 

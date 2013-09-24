@@ -22,11 +22,17 @@
   <sect2 role="installation">
     <title>Installation of CLooG</title>
 
+    <para os="s1">The following prevents the configure script from setting <envar>LD_LIBRARY_PATH</envar> when it finds PPL. This will prevent any conflicts with libraries from the host system:</para>
+
+<screen os="s2"><userinput>cp -v configure{,.orig}
+sed -e "/LD_LIBRARY_PATH=/d" \
+    configure.orig &gt; configure</userinput></screen>
+
     <para os="a">Prepare CLooG for compilation:</para>
 
 <screen os="b"><userinput>./configure --prefix=/tools \
     --build=${CLFS_HOST} --host=${CLFS_TARGET} \
-    --with-gmp-prefix=/tools --with-isl-prefix=/tools</userinput></screen>
+    --with-gmp-prefix=/tools</userinput></screen>
 
     <para os="c">Compile the package:</para>
 
