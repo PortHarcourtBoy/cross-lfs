@@ -31,7 +31,7 @@
 <!ENTITY gcc-branch_update-patch-size "601 KB">
 
 <!ENTITY iana-etc-get_fix-patch "iana-etc-&iana-etc-version;-get_fix-1.patch">
-<!ENTITY iana-etc-get_fix-patch-md5 "7da753875d46cabc21763dac0db571b3">
+<!ENTITY iana-etc-get_fix-patch-md5 "73aee2dc34cf4d990cc22fe323d89f27">
 <!ENTITY iana-etc-get_fix-patch-size "4 KB">
 
 <!ENTITY iana-etc-numbers_update-date "20120610">
